@@ -332,6 +332,10 @@ function citation_exporter_extra_preprocess_islandora_export_available_formats(&
     'items' => citation_exporter_extra_get_export_formats($variables['object']),
     'title' => t('Downloadable Formats'),
     'type' => 'ul',
-    'attributes' => [],
+    'attributes' => [
+      'class' => [
+        'islandora__export_formats_title'
+      ]
+    ],
   ]);
 }

@@ -10,3 +10,11 @@
 .not_available a {
   color: white;
 }
+
+#block-citation-exporter-extra-islandora-export-formats .islandora__export_formats_title {
+  font-size: 20px;
+}
+
+#block-citation-exporter-extra-islandora-export-formats h2 {
+  font-size: 24px;
+}
